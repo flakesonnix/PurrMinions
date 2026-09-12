@@ -21,6 +21,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout PurrCore
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrCore
+          path: ../PurrCore
+
+      - name: Checkout PurrItems
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrItems
+          path: ../PurrItems
+
+      - name: Checkout PurrCollections
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrCollections
+          path: ../PurrCollections
+
       - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
@@ -30,6 +48,24 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+
+      - name: Build PurrCore
+        run: |
+          cd ../PurrCore
+          chmod +x gradlew
+          ./gradlew shadowJar --no-daemon
+
+      - name: Build PurrItems
+        run: |
+          cd ../PurrItems
+          chmod +x gradlew
+          ./gradlew shadowJar --no-daemon
+
+      - name: Build PurrCollections
+        run: |
+          cd ../PurrCollections
+          chmod +x gradlew
+          ./gradlew shadowJar --no-daemon
 
       - name: Build (tests + jar)
         run: ./gradlew test shadowJar --no-daemon
