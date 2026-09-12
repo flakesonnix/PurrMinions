@@ -59,7 +59,7 @@ jobs:
         run: |
           for d in PurrCore PurrSkills PurrItems; do
             echo "=== Building $d ==="
-            (cd "deps/$d" && chmod +x gradlew && ./gradlew build -x test --no-daemon)
+            (cd "deps/$d" && chmod +x gradlew && ./gradlew shadowJar --no-daemon)
           done
 
       - name: Run tests
