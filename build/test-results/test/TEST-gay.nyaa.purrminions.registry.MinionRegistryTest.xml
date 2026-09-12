@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.registry.MinionRegistryTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:08.545Z" hostname="x270" time="0.032">
+  <properties/>
+  <testcase name="contains should return true for registered minion()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="all should return all registered minions()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="register should add minion type()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="get should return null for unregistered minion()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.002"/>
+  <testcase name="register duplicate should throw()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.005"/>
+  <testcase name="size should return correct count()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="registry should be thread-safe()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.007"/>
+  <testcase name="contains should return false for unregistered minion()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="get should return registered minion()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.001"/>
+  <testcase name="all should return empty list when no minions registered()" classname="gay.nyaa.purrminions.registry.MinionRegistryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

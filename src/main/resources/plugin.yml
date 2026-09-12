@@ -1,0 +1,12 @@
+name: PurrMinions
+version: 1.0.0
+main: gay.nyaa.purrminions.PurrMinionsPlugin
+api-version: 1.21
+depend: [PurrCore, PurrItems]
+softdepend: [PurrCollections]
+
+commands:
+  minion:
+    description: Manage minions
+    usage: /minion <list|upgrade>
+    aliases: [minions, m]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.integration.MinionOfflineProductionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:06.985Z" hostname="x270" time="0.007">
+  <properties/>
+  <testcase name="minion produces correct amount after offline time()" classname="gay.nyaa.purrminions.integration.MinionOfflineProductionTest" time="0.001"/>
+  <testcase name="minion stops producing when fuel runs out()" classname="gay.nyaa.purrminions.integration.MinionOfflineProductionTest" time="0.001"/>
+  <testcase name="storage overflow handling()" classname="gay.nyaa.purrminions.integration.MinionOfflineProductionTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

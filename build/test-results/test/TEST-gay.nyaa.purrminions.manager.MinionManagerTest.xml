@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.manager.MinionManagerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:06.997Z" hostname="x270" time="1.542">
+  <properties/>
+  <testcase name="placeMinion should succeed with valid conditions()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="1.263"/>
+  <testcase name="updateMinion should save to repository()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.171"/>
+  <testcase name="getMinion should return null for empty location()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.005"/>
+  <testcase name="getAllMinions should return all minions()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.011"/>
+  <testcase name="placeMinion should fail when player limit reached()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.017"/>
+  <testcase name="chunk limit should consider chunk boundaries correctly()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.007"/>
+  <testcase name="placeMinion should fail when chunk limit reached()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.011"/>
+  <testcase name="breakMinion should return null for non-existent minion()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.005"/>
+  <testcase name="placeMinion should fail when location occupied()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.008"/>
+  <testcase name="breakMinion should remove minion()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.009"/>
+  <testcase name="loadAllMinions should load from repository()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.009"/>
+  <testcase name="getMinion should return minion at location()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.006"/>
+  <testcase name="getPlayerMinions should return player's minions only()" classname="gay.nyaa.purrminions.manager.MinionManagerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

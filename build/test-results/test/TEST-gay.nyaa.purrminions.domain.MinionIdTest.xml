@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.domain.MinionIdTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:04.819Z" hostname="x270" time="0.031">
+  <properties/>
+  <testcase name="uppercase namespace should throw()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <testcase name="lowercase key should throw()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <testcase name="blank key should throw()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <testcase name="blank namespace should throw()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <testcase name="parse should create valid id()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.001"/>
+  <testcase name="namespace with underscores is valid()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <testcase name="key with numbers is valid()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.004"/>
+  <testcase name="valid minion id should be created()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.003"/>
+  <testcase name="invalid format should throw on parse()" classname="gay.nyaa.purrminions.domain.MinionIdTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

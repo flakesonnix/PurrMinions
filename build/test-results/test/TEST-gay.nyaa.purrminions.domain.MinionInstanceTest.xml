@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.domain.MinionInstanceTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:04.861Z" hostname="x270" time="1.853">
+  <properties/>
+  <testcase name="withLastTick should update last tick()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.003"/>
+  <testcase name="consumeFuel should not go below 0()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.004"/>
+  <testcase name="withStorage should update storage()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.223"/>
+  <testcase name="MinionLocation toLocation returns null for invalid world()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="1.55"/>
+  <testcase name="isFueled returns true when fuel available()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.003"/>
+  <testcase name="minion instance should be created()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.001"/>
+  <testcase name="MinionLocation from Location should extract coordinates()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.034"/>
+  <testcase name="addToStorage should append to existing storage()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.002"/>
+  <testcase name="consumeFuel should decrease fuel by 1()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.002"/>
+  <testcase name="withFuel should update fuel ticks()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.001"/>
+  <testcase name="addToStorage should add item()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.001"/>
+  <testcase name="withTier should update tier()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.003"/>
+  <testcase name="MinionLocation toLocation should create Location()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.004"/>
+  <testcase name="isFueled returns false when no fuel()" classname="gay.nyaa.purrminions.domain.MinionInstanceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

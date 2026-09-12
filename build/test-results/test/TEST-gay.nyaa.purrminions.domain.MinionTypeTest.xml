@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.domain.MinionTypeTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:06.722Z" hostname="x270" time="0.259">
+  <properties/>
+  <testcase name="empty tiers should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.224"/>
+  <testcase name="unsorted tiers should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.004"/>
+  <testcase name="maxTier should return highest tier()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="MinionTier with 27 storage slots is valid()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="MinionTier with zero tick interval should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="valid minion type should be created()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.003"/>
+  <testcase name="MinionTier with negative tier should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.002"/>
+  <testcase name="getTier should return null for invalid tier()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="MinionTier with invalid storage slots should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.002"/>
+  <testcase name="MinionTier with valid values should be created()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="MinionTier with zero tier should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="blank display name should throw()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.001"/>
+  <testcase name="getTier should return tier()" classname="gay.nyaa.purrminions.domain.MinionTypeTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

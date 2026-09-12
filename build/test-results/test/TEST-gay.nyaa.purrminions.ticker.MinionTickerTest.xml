@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrminions.ticker.MinionTickerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:35:08.587Z" hostname="x270" time="1.786">
+  <properties/>
+  <testcase name="tick should handle invalid tier()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.795"/>
+  <testcase name="tick should not process minion without fuel()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.012"/>
+  <testcase name="stop should cancel task()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.008"/>
+  <testcase name="tick should not process minion before interval()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.031"/>
+  <testcase name="tick should handle exceptions gracefully()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.018"/>
+  <testcase name="tick should handle unregistered minion type()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.016"/>
+  <testcase name="tick should process fueled minion after interval()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.86"/>
+  <testcase name="start should schedule task()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.011"/>
+  <testcase name="tick should process multiple minions()" classname="gay.nyaa.purrminions.ticker.MinionTickerTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
