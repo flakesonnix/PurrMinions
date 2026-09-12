@@ -15,10 +15,10 @@ Place minions that collect resources while you're offline. Fuel them, manage the
 
 ## Commands
 
-- `/minion place <type> [tier]` - Place a minion at your location
 - `/minion list` - View your active minions
-- `/minion remove` - Remove the minion you're looking at
-- `/minion upgrade` - Upgrade minion tier (right-click with upgrade item)
+- `/minion upgrade` - Upgrade minion tier *(not yet implemented)*
+
+**Note**: Minion placement currently requires placing custom items (via `/purritems give`). Commands for direct placement coming soon.
 
 ## Minion Types
 
@@ -30,15 +30,7 @@ Place minions that collect resources while you're offline. Fuel them, manage the
 
 ## Configuration
 
-`plugins/PurrMinions/config.yml`:
-
-```yaml
-minions:
-  max-per-player: 5
-  max-per-chunk: 3
-  fuel-consumption-multiplier: 1.0
-  offline-production: true
-```
+Configuration support is planned for future releases. Currently, limits are hardcoded in the plugin.
 
 ## Building
 
